@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: ghostwhite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrap {
+    margin: 20px;
+    font-family: monospace;
+}
+
+.wrap input[type=date] {
+    width: 210px;
+    display: block;
+    margin: 9px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.wrap button.check {
+    display: inline-block;
+    outline: 0;
+    padding: 5px;
+    width: 78px;
+    border-radius: 5px;
+    color: #fff;
+    background: #000;
+    border-color: #000;
+}
+
+.wrap button.check:hover {
+    background: #2196F3;
+    color: #fff;
+    border-color: #2196F3;
+}
+
+.wrap small {
+    display: block;
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.wrap small span.format {
+    color: gray;
+    font-weight: bold;
+}
+
+.info, .wrap{
+align-items: center;
+  background-color: rgba(255, 255, 255,1);
+  box-shadow:  inset 0 0 15px rgba(55, 84, 170,0),
+    inset 0 0 20px rgba(255, 255, 255,0),
+    7px 7px 15px rgba(55, 84, 170,.15),
+    -7px -7px 20px rgba(255, 255, 255,1),
+    inset 0px 0px 4px rgba(255, 255, 255,.2);
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+    flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  width: 450px !important;
+  max-width: 450px !important;
+  font-size: 17.5px;
+}
+
+.info{
+    font-family: monospace;
+    display: none;
+
+}
+
+.info span.ageP {
+    color: red;
+    font-weight: bold;
+}
+
+.info span.nextage {
+    color: gray;
+    font-weight: bold;
+}
+
+.info p {
+    padding: 8px;
+}
+
+p.author a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+}
+p.author {
+    font-family: monospace;
+    font-size: 15px;
+    padding: 23px;
+    text-align: center;
+}
